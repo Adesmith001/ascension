@@ -1,5 +1,6 @@
 {
     "rewrites":  [
       {"source": "/(.*)", "destination": "/"}
-    ]
+    ],
+    "ignore": ["package-lock.json", "node_modules/"]
   }

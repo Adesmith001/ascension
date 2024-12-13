@@ -1,0 +1,11 @@
+# Ignore specific files
+secret-config.json
+debug.log
+package-lock.json
+
+# Ignore directories
+node_modules/
+.dist/
+
+# Ignore all .env files
+.env
